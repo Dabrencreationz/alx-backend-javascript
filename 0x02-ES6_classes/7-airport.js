@@ -1,5 +1,5 @@
 export default class Airport {
-  const(name, code) {
+  constructor(name, code) {
     if (typeof name !== 'string') {
       throw new TypeError('Name must be a string');
     } else if (typeof code !== 'string') {
